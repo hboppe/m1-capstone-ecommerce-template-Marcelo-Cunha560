@@ -19,7 +19,7 @@ main {
 }
 
 .vitrine{
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,22 +31,24 @@ main {
 
 section div ul{
     display: flex;
-    flex-direction: column;
     margin: 5px;
-    height: 350px;
-    padding: 5px;
+    height: 388px;
+    
 }
 
-section div ul li{
+section div ul li.card{
     width: 230px;
     cursor: pointer;
     background-color: #F5F5F5;
     text-align: left;
+    margin: 10px;
     
 }
 
 img{
-    height: 180px;
+    
+    width: 45%;
+    height: 150px;
     object-fit: cover;
 }
 
@@ -61,14 +63,23 @@ p{
     font-size: small;
     font-weight: 10px;
     padding-left: 10px;
-    margin-bottom: 10px;
+    margin: 7px;
+    
+}
+
+.tag{
+    font-size: 15px;
+    background-color: #37268C;
+    width: 35%;
+    padding-left: 10px;
+    color: white;
 }
 
 a{
     margin: 20px;
 }
 
-li:hover{
+li.card:hover{
     border: 1px solid black;
 }
 
