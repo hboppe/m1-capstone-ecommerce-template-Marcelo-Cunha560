@@ -32,7 +32,7 @@ main {
 section div ul{
     display: flex;
     margin: 5px;
-    height: 388px;
+    height: 395px;
     
 }
 
@@ -46,14 +46,13 @@ section div ul li.card{
 }
 
 img{
-    
-    width: 45%;
-    height: 150px;
+    width: 58%;
+    height: 165px;
     object-fit: cover;
 }
 
 h3{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     margin-bottom: 5px;
     padding-left: 10px;
@@ -63,7 +62,7 @@ p{
     font-size: small;
     font-weight: 10px;
     padding-left: 10px;
-    margin: 7px;
+    margin: 5px;
     
 }
 

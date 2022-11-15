@@ -43,7 +43,7 @@ const data = [
   },
   {
     id: 5,
-    img: "../img/god-ofwar-ragnarok.jpeg",
+    img: "../img/god-of-war-ragnarok.jpeg",
     nameItem: "God of War Ragnarök",
     description:
       "Embarque em uma jornada épica e comovente onde Kratos e Atreus lutam entre o desejo de manterem-se unidos ou separar-se...",
@@ -67,7 +67,7 @@ const data = [
     nameItem: "Console Nintendo Switch",
     description:
       "Adquira o console de videogames que lhe possibilita jogar seus jogos favoritos, onde você quiser e da maneira que preferir...",
-    value: 2.000,
+    value: 2000,
     addCart: "Adicionar ao carrinho",
     tag: ["Console"],
   },
@@ -77,7 +77,7 @@ const data = [
     nameItem: "Console PlayStation 5",
     description:
       "Entre em sua conta para a PlayStation Network e acesse a PlayStation Store para comprar e baixar jogos...",
-    value: 4.900,
+    value: 4900,
     addCart: "Adicionar ao carrinho",
     tag: ["Console"],
   },
@@ -87,7 +87,7 @@ const data = [
     nameItem: "Console Xbox Series S",
     description:
       "Xbox series s, nosso xbox menor e mais elegante de todos os tempos, Alterne entre os jogos com facilidade...",
-    value: 2.550,
+    value: 2550,
     addCart: "Adicionar ao carrinho",
     tag: ["Console"],
   }

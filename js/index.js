@@ -73,7 +73,7 @@ for (let i = 0; i < arrJogos.length; i++){
     descricao.innerText = `${arrJogos[i].description}`
     
     let valor = document.createElement('p');
-    valor.innerText = `R$ ${arrAcessorio[i].value.toFixed(2)}`
+    valor.innerText = `R$ ${arrJogos[i].value.toFixed(2)}`
 
     let addcarinho = document.createElement('a');
     addcarinho.innerText = `${arrJogos[i].addCart}`
@@ -83,6 +83,34 @@ for (let i = 0; i < arrJogos.length; i++){
     product2.appendChild(liDocumento)
 }
 
+for (let i = 0; i < arrConsoles.length; i++){
+    let liDocumento = document.createElement('li');
+    liDocumento.classList.add('card');
+
+    let imagemProduto = document.createElement('img')
+    imagemProduto.src = `${arrConsoles[i].img}`
+
+    let pTag = document.createElement('p');
+    pTag.innerHTML = `${arrConsoles[i].tag[0]}`
+    pTag.classList.add('tag');
+
+    let titulo3 = document.createElement('h3')
+    titulo3.innerText = `${arrConsoles[i].nameItem}`
+    console.log(titulo3)
+
+    let descricao = document.createElement('p');
+    descricao.innerText = `${arrConsoles[i].description}`
+    
+    let valor = document.createElement('p');
+    valor.innerText = `R$ ${arrConsoles[i].value.toFixed(2)}`
+
+    let addcarinho = document.createElement('a');
+    addcarinho.innerText = `${arrConsoles[i].addCart}`
+
+    liDocumento.append(imagemProduto ,pTag, titulo3, descricao, valor, addcarinho);
+
+    product3.appendChild(liDocumento)
+}
 
 
 
