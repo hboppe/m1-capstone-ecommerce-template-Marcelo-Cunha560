@@ -19,7 +19,7 @@ const data = [
       "O novo JBL C300SI é um fone de ouvido on-ear potente, dinâmico e ultraleve, com alto-falantes potentes...",
     value: 52,
     addCart: "Adicionar ao carrinho",
-    tag: ["Acessórios"],
+    tag: ["Acessorios"],
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const data = [
       "JBL Charge 5 oferece o ousado JBL Original Pro Sound, com driver de longa excursão otimizado, tweeter separado e dois radiadores de graves JBL. ...",
     value: 890,
     addCart: "Adicionar ao carrinho",
-    tag: ["Acessórios"],
+    tag: ["Acessorios"],
   },
   {
     id: 4,
